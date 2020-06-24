@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "492776462739",
+    "firebase_url": "https://easy-db068.firebaseio.com",
+    "project_id": "easy-db068",
+    "storage_bucket": "easy-db068.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:492776462739:android:0bf83f6b96abe8a554f066",
+        "android_client_info": {
+          "package_name": "com.tanwave.easyswitch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "492776462739-p1q7kvrbk8mqqcffg7p94okpc8vhkvrp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD82xwHayqxaj_8Fe4QPscSSwNRy2sshoQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "492776462739-p1q7kvrbk8mqqcffg7p94okpc8vhkvrp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

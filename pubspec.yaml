@@ -1,0 +1,171 @@
+name: box
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.3
+  firebase_core: ^0.4.5
+  firebase_admob: ^0.9.3+2
+
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_webview_plugin: ^0.3.11  
+  
+  
+ 
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+     - assets/ajio.png
+     - assets/amazon.png
+     - assets/bewkoof.jpg
+     - assets/biba.png
+     - assets/coolwinks.png
+     - assets/decatha.png
+     - assets/ebay.png
+     - assets/flipkart.jpg
+     - assets/koovs.jpeg
+     - assets/lenskart.png
+     - assets/limeroad.png
+     - assets/max.png
+     - assets/Myntra.png
+     - assets/nyka.png
+     - assets/pepperfry.jpg
+     - assets/shein.jpg
+     - assets/shoperstop.jpg
+     - assets/snapdeal.png
+     - assets/tata.png
+     - assets/bf.png
+     - assets/food/big.png
+     - assets/food/zomato.png
+     - assets/food/uber.png
+     - assets/food/swigy.png
+     - assets/food/pizza.png
+     - assets/food/kfc.png
+     - assets/food/groofer.png
+     - assets/food/faaos.png
+     - assets/food/subway.jpg
+     - assets/food/dunzo.jpg
+     - assets/food/domino.png
+     - assets/food/dmart.jpg
+     - assets/bookings/yatra.png
+     - assets/bookings/triv.png
+     - assets/bookings/tripad.png
+     - assets/bookings/trip.png
+     - assets/bookings/thomas.png
+     - assets/bookings/show.png
+     - assets/bookings/redbus.png
+     - assets/bookings/oyo.png
+     - assets/bookings/ixi.png
+     - assets/bookings/happy.png
+     - assets/bookings/goibi.png
+     - assets/bookings/ease.png
+     - assets/bookings/clr.jpeg
+     - assets/bookings/ola.jpg
+     - assets/bookings/zoom-car.jpg
+     - assets/bookings/uberc.jpg
+     - assets/bookings/air.jpg
+     - assets/buysell/index.png
+     - assets/buysell/quick.jpg
+     - assets/buysell/droom.png
+     - assets/buysell/cardekh.png
+     - assets/buysell/car.png
+     - assets/buysell/bikedekh.jpg
+     - assets/buysell/bike.jpg
+     - assets/buysell/2gud.png
+     - assets/health/practo.jpg
+     - assets/health/pharm.jpg
+     - assets/health/netmed.jpg
+     - assets/health/medplus.png
+     - assets/health/medlife.png
+     - assets/health/hk.jpeg
+     - assets/health/1mg.png
+     - assets/info/360.png
+     - assets/info/cnet.png
+     - assets/info/discovery.png
+     - assets/info/good.jpg
+     - assets/info/gsm.png
+     - assets/info/history.jpg
+     - assets/info/imdb.jpeg
+     - assets/info/Just.png
+     - assets/info/nat.jpg
+     - assets/info/pin.png
+     - assets/info/qora.png
+     - assets/info/verge.png
+     - assets/info/blog.png
+     - assets/info/cric.png
+     - assets/info/dic.png
+     - assets/info/ecrick.png
+     - assets/info/espn.png
+     - assets/info/images.png
+     - assets/info/inida.png
+     - assets/info/redit.png
+     - assets/info/stack.png
+     - assets/info/wiki.png
+      
+     
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+     - family: Poppins
+       fonts:
+         - asset: fonts/Poppins-Regular.otf
+         - asset: fonts/Poppins-ExtraLight.otf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
